@@ -98,6 +98,7 @@ textarea{
     }
    .contact-us{
        margin: 60px auto;
+       margin-bottom: 60px;
        width:80%;
        display:grid;
        grid-template-columns: 1fr;
