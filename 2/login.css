@@ -1,0 +1,67 @@
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+
+}
+
+
+.form-box{
+   padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    background: rgb(97, 25, 180);
+    width: 80%;
+    margin-left: 10%;
+   
+}
+.form-reg{
+    padding: 20px;
+     text-align: center;
+     margin-top: 100px;
+     background: rgb(97, 25, 180);
+     width: 80%;
+     margin-left: 10%;
+    
+ }
+.form-name{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.form-name input{
+    background: black;
+    color:white;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+.form-box button{
+    width: 30%;
+    border-radius: 10px;
+    
+}
+.form-reg button{
+    width: 30%;
+    border-radius: 10px;
+    
+}
+
+.footer{
+    margin-top: 100px;
+}
+/*---fones----*/
+@media screen and (max-width: 900px) {
+    
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+
+}
+.form-name input{
+    width: 80%;
+}
+}

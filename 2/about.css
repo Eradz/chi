@@ -1,0 +1,186 @@
+/*------ABOUT------*/
+.achieve{
+    margin-top: 130px;
+}
+.arow{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.aboxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.abox{ 
+    background:rgb(60, 2, 102);
+    border-radius: 20px ;
+    padding: 20px;
+    text-align: center;
+    line-height: 4rem;
+    width: 10vw;
+    height: 32vh;
+    transition: 0.5s;
+}
+.aicon1{
+   border: 1px solid red;
+   border-radius: 10px;
+   background: rgb(223, 26, 26);
+   font-size: 2rem;
+   padding: 15px;
+    margin-bottom: 10px;
+}
+.aicon2{
+   border-radius: 10px;
+   background:  rgb(54, 180, 61);;
+   font-size: 2rem;
+   padding: 15px;
+   margin-bottom: 10px;
+}
+.aicon3{
+   border-radius: 10px;
+   background: rgb(158, 98, 226);
+   font-size: 2rem;
+   padding: 15px;
+   margin-bottom: 10px;
+}
+.acont{
+    margin: 0 auto;
+}
+.h{
+    margin-bottom: 20px;
+}
+.abox:hover{
+    cursor: pointer;
+    background: rgb(125, 4, 211);
+    border: 1px solid rgb(125, 4, 211);
+}
+/* team */
+.team{
+    background: rgb(46, 1, 78,0.4) ;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tboxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.tbox{
+    position: relative;
+    background: rgb(81, 2, 138) ;
+    padding: 30px;
+    padding-right:50px ;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.tbox:hover img {
+    cursor: pointer;
+    background: transparent;
+    border:1px solid rgb(81, 2, 138) ;
+    filter: saturate(1);
+    
+}
+.tbox:hover  {
+    cursor: pointer;
+    background: transparent;
+    border:1px solid rgb(81, 2, 138) ;
+    filter: saturate(1);
+    
+}
+.tbox:hover span {
+    cursor: pointer;
+    border:1px solid rgb(81, 2, 138) ;
+    filter: saturate(1);
+    
+}
+.tbox img{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    filter: saturate(0);
+}
+.tbox h3{
+    margin-bottom: 10px;
+}
+.ticon{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    margin-left: 10px;
+    background: rgb(81, 2, 138);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+    transition: 1s;
+}
+.tbox:hover .ticon{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.tmicon{
+    color: blue
+}
+.tmicon1:hover{
+    border: 1px solid rgb(81, 2, 138);
+    background-color: transparent;
+   
+}
+.tmicon1{
+    color: blue;
+    border: 1px solid rgb(81, 2, 138);
+}
+
+@media screen and (max-width: 1024px ) {
+   /*body{
+       background: rgb(0, 255, 85);
+   }*/
+   
+    .arow{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .abox{
+        width: 100%;
+        height: 85%;
+        
+    }
+    .aboxes{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .tboxes{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .tbox img{
+        width: 110%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 700px ) {
+    .acoln{
+        text-align: center;
+        width:90%
+    }
+    .aboxes{
+       width:100%;
+       margin-left: 10px;
+    }
+    .abox{
+        height: 85%;
+    }
+    .team{
+        margin-top: 50px;
+    }
+}
